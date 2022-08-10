@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+   
+    <!-- Javascript -->
+     <script src="../javascript/jquery-3.6.0.min.js"></script>
+     <script src="../javascript/register.js"></script>
+ 
+     <script>
+         $(document).ready(function(){
+             $('#header').load("header.html");
+             $('#footer').load("footer.html");
+         });
+     </script>
+
+</head>
+<body>
+    <header>
+        <div id="header"></div>
+    </header>
+   
+    <div class="registration">
+        <h1>registration</h1>
+        <form action="thankyou.html" id="register" name="formRegister" onSubmit="return validate()" method="get">
+            <label for="fname">name:</label><br>
+            <input type="text" id="lname" name="name" value=""><br>
+            <label for="lname">gender:</label><br>
+            <input type="text" id="lname" name="gender" value=""><br><br>
+            <label for="lname">email:</label><br>
+            <input type="text" id="lname" name="email" value=""><br><br>
+            <button value="submit" type="submit" onclick="addData()">Submit</button>
+        </form> 
+    </div> <!-- registration -->
+    
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+</body>
+</html>

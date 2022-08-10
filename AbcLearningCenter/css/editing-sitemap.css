@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    max-width: 1360px;
+    width: 100%;
+    height: auto;
+    background-color: papayawhip;
+    margin-top: -21px;
+}
+
+.left{
+    width: 50%;
+    float: left;
+    background-color:papayawhip;
+    margin-top: 21px;
+}
+
+.right{
+    width: 50%;
+    float: right;
+    background-color: papayawhip;
+    margin-top: 21px;
+}
+
+.sitemap{
+    padding-top: 100px;
+}
